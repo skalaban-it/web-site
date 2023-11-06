@@ -61,11 +61,12 @@ body {
 .linked-in {
     position: absolute;
     top: 90%;
-    width: var(--linked-in-width);
-
     left: calc(var(--x-center) - calc(var(--linked-in-width) / 2));
 }
 
+.linked-in-img {
+    width: var(--linked-in-width);
+}
 
 .coming-soon {
     position: absolute;
@@ -78,11 +79,6 @@ body {
     height: 100%;
 }
 
-@media only screen and (max-width: 990px) {
-    #main {
-        --logo-width: 200px;
-    }
-}
 
 @media only screen and (max-width: 600px) {
     #main {
@@ -158,13 +154,14 @@ body {
 
     .linked-in {
         position: absolute;
-        bottom: -5px;
-        width: var(--linked-in-width);
-
-        top: auto;
+        bottom: 0;
+        top: calc(100vh - 60px);
         left: calc(var(--x-center) - calc(var(--linked-in-width) / 2));
     }
 
+    .linked-in-img {
+        width: var(--linked-in-width);
+    }
 
 
 }
