@@ -90,7 +90,7 @@ body {
         --bottom-line-width: 215px;
         --bottom-line-height: 118px;
         --margin: 10px;
-        --bottom-line-top: calc(var(--y-center) + var(--logo-height) / 2);
+        --bottom-line-top: calc(50vh + 100px);
     }
 
     .unlock-potential {
