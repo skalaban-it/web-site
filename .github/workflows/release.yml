@@ -4,7 +4,7 @@ on:
     tags: ["*"]
 
 env:
-  IMAGE_NAME: amigin/web-site
+  IMAGE_NAME: amigin/skalaban-web-site
 
 jobs:
   build:
