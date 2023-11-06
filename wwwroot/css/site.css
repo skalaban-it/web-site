@@ -144,14 +144,9 @@ body {
         transform: translateY(-50%);
     }
 
-
-
-
-
     .bottom-line {
         display: none;
     }
-
 
     .bottom-line-mobile {
         display: block;
@@ -159,6 +154,16 @@ body {
         width: var(--bottom-line-width);
         left: calc(var(--x-center) - calc(var(--bottom-line-width) / 2));
         top: var(--bottom-line-top);
+    }
+
+
+    .linked-in {
+        position: absolute;
+        bottom: -5px;
+        width: var(--linked-in-width);
+
+        top: auto;
+        left: calc(var(--x-center) - calc(var(--linked-in-width) / 2));
     }
 
 
