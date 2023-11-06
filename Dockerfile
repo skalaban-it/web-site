@@ -1,4 +1,4 @@
 FROM ubuntu:22.04
-COPY ./target/release/website ./target/release/website
+COPY ./target/release/web-site ./target/release/web-site
 COPY ./wwwroot ./wwwroot 
-ENTRYPOINT ["./target/release/website"]
+ENTRYPOINT ["./target/release/web-site"]
