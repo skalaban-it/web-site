@@ -53,6 +53,14 @@ body {
     width: var(--bottom-line-width);
 }
 
+.bottom-line-img-mobile {
+    display: none;
+}
+
+.bottom-line-img {
+    width: 100%;
+}
+
 .bottom-line-mobile {
     display: none;
 }
@@ -113,7 +121,6 @@ body {
         left: 0;
         height: 40%;
         width: 100%;
-
         text-align: center;
     }
 
@@ -125,9 +132,9 @@ body {
 
     .coming-soon {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 0;
-        height: 100px;
+        height: 15%;
         width: 100vw;
         --coming-soon-img-width: 40vw;
     }
@@ -141,26 +148,39 @@ body {
     }
 
     .bottom-line {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        top: 70%;
+        height: 20%;
+        left: 0;
+    }
+
+    .bottom-line-img {
         display: none;
     }
 
-    .bottom-line-mobile {
-        display: block;
-        position: absolute;
+    .bottom-line-img-mobile {
         width: var(--bottom-line-width);
-        left: calc(var(--x-center) - calc(var(--bottom-line-width) / 2));
-        top: var(--bottom-line-top);
+        position: absolute;
+        top: 50%;
+        left: calc(var(--x-center) - var(--bottom-line-width) / 2);
+        transform: translateY(-50%);
     }
-
 
     .linked-in {
         position: relative;
-        top: calc(100vh - 100px);
-        left: calc(var(--x-center) - calc(var(--linked-in-width) / 2));
+        top: 90%;
+        left: 0;
+        height: 10%;
     }
 
     .linked-in-img {
         width: var(--linked-in-width);
+        position: absolute;
+        top: 50%;
+        left: calc(var(--x-center) - var(--linked-in-width) / 2);
+        transform: translateY(-50%);
     }
 
 
