@@ -161,6 +161,7 @@ body {
     }
 
     .bottom-line-img-mobile {
+        display: inline;
         width: var(--bottom-line-width);
         position: absolute;
         top: 50%;
