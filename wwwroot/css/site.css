@@ -179,7 +179,7 @@ body {
     .linked-in-img {
         width: var(--linked-in-width);
         position: absolute;
-        top: 50%;
+        top: 10%;
         left: calc(var(--x-center) - var(--linked-in-width) / 2);
         transform: translateY(-50%);
     }
