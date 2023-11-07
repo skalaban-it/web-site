@@ -11,7 +11,7 @@ body {
     --bottom-line-width: 30vw;
     --x-center: 50vw;
     --y-center: 45vh;
-    --linked-in-width: 100px;
+    --linked-in-width: 80px;
     --left-line: 25%;
     --right-line: 75%;
     --unlock-potential-width: 188px;
@@ -87,6 +87,7 @@ body {
         --bottom-line-height: 118px;
         --margin: 10px;
         --bottom-line-top: calc(50vh + 100px);
+        --linked-in-width: 100px;
     }
 
     .unlock-potential {
@@ -154,8 +155,8 @@ body {
 
     .linked-in {
         position: absolute;
-        bottom: 0;
-        top: calc(100vh - 60px);
+        bottom: 5px;
+        top: auto;
         left: calc(var(--x-center) - calc(var(--linked-in-width) / 2));
     }
 
