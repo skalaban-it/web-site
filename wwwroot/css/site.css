@@ -154,9 +154,8 @@ body {
 
 
     .linked-in {
-        position: absolute;
-        bottom: 5px;
-        top: auto;
+        position: relative;
+        top: calc(100vh - 100px);
         left: calc(var(--x-center) - calc(var(--linked-in-width) / 2));
     }
 
